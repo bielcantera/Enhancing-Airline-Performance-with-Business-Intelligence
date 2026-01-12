@@ -34,7 +34,7 @@ library(e1071)
 library(lubridate)
 library(tidyr)
 
-setwd("C:/Users/JoanCarles/iCloudDrive/Documents/_Universitats/_Bachelors/Salle/data-science/Moduls/Module 3/Case/")
+setwd("C:\Users\Biel Cantera Potente\Desktop\Business Intelligence\data\")
 
 # Start the timer
 start_time <- Sys.time()
@@ -334,6 +334,7 @@ write.csv(all_data, 'train_val.csv', row.names = FALSE)
 # Print elapsed time
 elapsed_time <- Sys.time() - start_time
 cat("Elapsed Time: ", elapsed_time, "\n")
+
 
 
 
